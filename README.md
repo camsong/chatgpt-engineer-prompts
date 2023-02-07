@@ -1,13 +1,20 @@
-# chatgpt-engineer-prompts
-Awesome ChatGPT prompts for engineers😇
-PR is welcome.
-为工程师总结的实用 Prompt，欢迎分享对你有用的 prompts。
+# chatgpt-engineer-prompts 👩‍💻🧑‍💻
 
-### 使用 Tips：
-1. 能够记录上下文，当一次提问没有得到理想答案，可以继续追问
+<img width="613" alt="image" src="https://user-images.githubusercontent.com/948896/217122899-5f6fb369-ef97-4753-9bd3-909c66ee4744.png">
+
+为工程师总结的实用 Prompts
+
+### ChatGPT 使用 Tips：
+1. 能够记录上下文，当一次提问没有得到理想答案，你可以继续追问
 2. 支持中英文混搭，在一个问题中可以灵活切换中英文表达
 
 ### 生成代码
+```
+使用 HTML 和 CSS 实现左中右三栏布局，左右定宽100px，中间撑满剩余空间
+```
+<img width="709" alt="image" src="https://user-images.githubusercontent.com/948896/217124783-6ccdf75b-3fd6-443b-9316-27ca68f0e581.png">
+<img width="601" alt="image" src="https://user-images.githubusercontent.com/948896/217124795-8a7308de-2288-43bf-9340-7bcc710a78a5.png">
+
 ```
 使用 React 生成一个 登录的 form，包含用户名，密码和确认密码。
 ```
@@ -46,7 +53,7 @@ function bottom(layout: Layout): number {
   return max;
 }
 ```
-<img width="728" alt="image" src="https://user-images.githubusercontent.com/948896/216982014-bfd012a1-9dfe-49cb-ad3c-2d7a3cb367df.png">
+<img width="715" alt="image" src="https://user-images.githubusercontent.com/948896/217125899-73540629-db08-48cb-87f8-cb478e829ce2.png">
 
 
 支持追问：
@@ -55,7 +62,7 @@ function bottom(layout: Layout): number {
 ```
 <img width="743" alt="image" src="https://user-images.githubusercontent.com/948896/216982055-a1ced7b5-7613-49ab-80e5-672fb76e0529.png">
 
-### 控制返回的格式
+### 指定返回格式
 
 返回 JSON
 ```
@@ -64,11 +71,28 @@ function bottom(layout: Layout): number {
 <img width="727" alt="image" src="https://user-images.githubusercontent.com/948896/216981922-9344734d-4f96-4624-8a3e-e44ad4185d52.png">
 
 返回 XML
+```
+生成2个测试用户的信息，以xml格式返回，包含 name, phone, email
+```
+<img width="711" alt="image" src="https://user-images.githubusercontent.com/948896/217123706-149b5a13-b79e-4c88-96e9-d3f4d0e13820.png">
+
 
 ### JS 转 TypeScript
+```
+把这段代码转成 TypeScript：
+const useWrapperCallback = (callback, wrapperFunction) => {
+  const wrapperRef = useRef({
+    currentCall: callback,
+    returnCall: wrapperFunction(function (...args) {
+      return wrapperRef.current?.currentCall(...args);
+    }),
+  });
 
-### 模拟面试
-我想你担任前端面试官。我将成为候选人，你向我提出一个个面试问题，不要说答案。等我回答，并对我的答案做评价，通过后开始下一个面试。我的第一句话是“你好”我想你担任前端面试官。我将成为候选人，你向我提出一个个面试问题，不要说答案。等我回答，并对我的答案做评价，通过后开始下一个面试。我的第一句话是“你好”
+  wrapperRef.current.currentCall = useMemo(() => callback, [callback]);
+  return wrapperRef;
+}
+```
+<img width="717" alt="image" src="https://user-images.githubusercontent.com/948896/217125605-358e57ec-ebfb-4a46-94ea-0a71202c2d43.png">
 
-### 出选择题
-
+### WIP
+New prompts is coming, stay tuned.
