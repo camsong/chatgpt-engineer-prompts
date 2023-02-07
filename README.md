@@ -4,14 +4,26 @@
 
 为工程师总结的实用 Prompts
 
-### ChatGPT 使用 Tips：
+## ChatGPT 使用 Tips：
+
 1. 能够记录上下文，当一次提问没有得到理想答案，你可以继续追问
 2. 支持中英文混搭，在一个问题中可以灵活切换中英文表达
 
-### 生成代码
+## Table of Contents
+
+1. [代码生成](#代码生成)
+1. [代码讲解](#代码讲解)
+1. [代码优化](#代码优化)
+1. [指定返回格式](#指定返回格式)
+1. [代码转换：JS 转 TypeScript](#代码转换js-转-typescript)
+
+
+## 代码生成
+
 ```
 使用 HTML 和 CSS 实现左中右三栏布局，左右定宽100px，中间撑满剩余空间
 ```
+
 <img width="709" alt="image" src="https://user-images.githubusercontent.com/948896/217124783-6ccdf75b-3fd6-443b-9316-27ca68f0e581.png">
 <img width="601" alt="image" src="https://user-images.githubusercontent.com/948896/217124795-8a7308de-2288-43bf-9340-7bcc710a78a5.png">
 
@@ -21,7 +33,8 @@
 
 <img width="724" alt="image" src="https://user-images.githubusercontent.com/948896/216982323-b3793dd9-91ba-47f0-a45c-cba8d54dc09b.png">
 
-### 代码讲解
+## 代码讲解
+
 ```
 解释一下这段代码：
 export const useDeepMemo = <K, V>(memoFn: () => V, key: K): V => {
@@ -34,10 +47,10 @@ export const useDeepMemo = <K, V>(memoFn: () => V, key: K): V => {
   return ref.current.value;
 };
 ```
+
 <img width="722" alt="image" src="https://user-images.githubusercontent.com/948896/216982215-ef9008c1-9102-47c8-94d8-6e39b90786f4.png">
 
-
-### 优化代码
+## 代码优化
 
 ```
 优化以下代码：
@@ -53,31 +66,19 @@ function bottom(layout: Layout): number {
   return max;
 }
 ```
+
 <img width="715" alt="image" src="https://user-images.githubusercontent.com/948896/217125899-73540629-db08-48cb-87f8-cb478e829ce2.png">
 
-
 支持追问：
+
 ```
 为什么这么优化？
 ```
+
 <img width="743" alt="image" src="https://user-images.githubusercontent.com/948896/216982055-a1ced7b5-7613-49ab-80e5-672fb76e0529.png">
 
-### 指定返回格式
+## 代码转换：JS 转 TypeScript
 
-返回 JSON
-```
-生成3个测试用户的信息，以json对象数组格式，包含 name, phone, email
-```
-<img width="727" alt="image" src="https://user-images.githubusercontent.com/948896/216981922-9344734d-4f96-4624-8a3e-e44ad4185d52.png">
-
-返回 XML
-```
-生成2个测试用户的信息，以xml格式返回，包含 name, phone, email
-```
-<img width="711" alt="image" src="https://user-images.githubusercontent.com/948896/217123706-149b5a13-b79e-4c88-96e9-d3f4d0e13820.png">
-
-
-### JS 转 TypeScript
 ```
 把这段代码转成 TypeScript：
 const useWrapperCallback = (callback, wrapperFunction) => {
@@ -92,7 +93,27 @@ const useWrapperCallback = (callback, wrapperFunction) => {
   return wrapperRef;
 }
 ```
+
 <img width="717" alt="image" src="https://user-images.githubusercontent.com/948896/217125605-358e57ec-ebfb-4a46-94ea-0a71202c2d43.png">
 
-### WIP
+## 指定返回格式
+
+返回 JSON
+
+```
+生成3个测试用户的信息，以json对象数组格式，包含 name, phone, email
+```
+
+<img width="727" alt="image" src="https://user-images.githubusercontent.com/948896/216981922-9344734d-4f96-4624-8a3e-e44ad4185d52.png">
+
+返回 XML
+
+```
+生成2个测试用户的信息，以xml格式返回，包含 name, phone, email
+```
+
+<img width="711" alt="image" src="https://user-images.githubusercontent.com/948896/217123706-149b5a13-b79e-4c88-96e9-d3f4d0e13820.png">
+
+## WIP
+
 New prompts is coming, stay tuned.
