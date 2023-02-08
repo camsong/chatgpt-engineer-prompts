@@ -14,8 +14,9 @@
 1. [代码生成](#代码生成)
 1. [代码讲解](#代码讲解)
 1. [代码优化](#代码优化)
+1. [代码转换](#代码转换js-转-typescript)
 1. [指定返回格式](#指定返回格式)
-1. [代码转换：JS 转 TypeScript](#代码转换js-转-typescript)
+1. [沟通](#沟通)
 
 
 ## 代码生成
@@ -113,6 +114,19 @@ const useWrapperCallback = (callback, wrapperFunction) => {
 ```
 
 <img width="711" alt="image" src="https://user-images.githubusercontent.com/948896/217123706-149b5a13-b79e-4c88-96e9-d3f4d0e13820.png">
+
+## 沟通
+
+```
+给6岁的孩子解释，为什么要关注代码的质量
+```
+<img width="727" alt="image" src="https://user-images.githubusercontent.com/948896/217501212-6733fc28-96dc-435b-ba90-c4b799134f01.png">
+
+```
+给不了解技术的老板解释，为什么要经常做代码的重构
+```
+<img width="738" alt="image" src="https://user-images.githubusercontent.com/948896/217502042-e5adf975-cf9f-43d9-8093-b68215294674.png">
+
 
 ## WIP
 
