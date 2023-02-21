@@ -16,6 +16,7 @@
 1. [代码优化](#代码优化)
 1. [代码转换](#代码转换js-转-typescript)
 1. [指定返回格式](#指定返回格式)
+1. [正则表达式](#正则表达式)
 1. [沟通](#沟通)
 
 
@@ -114,6 +115,23 @@ const useWrapperCallback = (callback, wrapperFunction) => {
 ```
 
 <img width="711" alt="image" src="https://user-images.githubusercontent.com/948896/217123706-149b5a13-b79e-4c88-96e9-d3f4d0e13820.png">
+
+## 正则表达式
+
+```
+写一个 JS 的正则表达式，检查密码的强度必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间。
+```
+
+<img width="667" alt="image" src="https://user-images.githubusercontent.com/948896/220364751-862b502c-744b-46fb-84cd-07ead6f656ce.png">
+
+也可以解释正则表达式
+```
+这个正则表达式是什么含义？
+^[A-Z]:\\{1,2}[^/:\*\?<>\|]+\.(jpg|gif|png|bmp)$
+```
+
+<img width="661" alt="image" src="https://user-images.githubusercontent.com/948896/220365104-a1f9f5fd-e5e7-4b32-a90d-812c13395079.png">
+
 
 ## 沟通
 
