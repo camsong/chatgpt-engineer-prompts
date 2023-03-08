@@ -17,6 +17,7 @@
 1. [代码转换](#代码转换js-转-typescript)
 1. [指定返回格式](#指定返回格式)
 1. [正则表达式](#正则表达式)
+1. [生成SQL](#生成-sql)
 1. [沟通](#沟通)
 
 
@@ -132,6 +133,27 @@ const useWrapperCallback = (callback, wrapperFunction) => {
 
 <img width="661" alt="image" src="https://user-images.githubusercontent.com/948896/220365104-a1f9f5fd-e5e7-4b32-a90d-812c13395079.png">
 
+
+## 生成 SQL
+```
+有一个工资表 emp_salary，包含员工号 emp_id, 部门名 dep_name，工资 salary，查询每个员工的工资和他部门的平均工资
+```
+生成结果如下，窗户函数也能熟练使用：
+```
+SELECT 
+    emp_id, 
+    dep_name, 
+    salary, 
+    AVG(salary) OVER (PARTITION BY dep_name) AS avg_salary
+FROM 
+    emp_salary;
+```
+
+![image](https://user-images.githubusercontent.com/948896/223762204-ef3296bf-bb72-4b5c-a908-fd7d5be2e0b4.png)
+
+还可以追问，生成测试数据及查看示例运行结果：
+
+![image](https://user-images.githubusercontent.com/948896/223762643-fb17106b-6c54-4f36-9a66-6ca1ecf11ca6.png)
 
 ## 沟通
 
