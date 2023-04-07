@@ -1,6 +1,6 @@
 # chatgpt-engineer-prompts 👩‍💻🧑‍💻
 
-<img width="613" alt="image" src="https://user-images.githubusercontent.com/948896/217122899-5f6fb369-ef97-4753-9bd3-909c66ee4744. png">
+<img width="613" alt="image" src="https://user-images.githubusercontent.com/948896/217122899-5f6fb369-ef97-4753-9bd3-909c66ee4744.png">
 
 Practical Prompts for Engineers
 
@@ -27,14 +27,14 @@ Practical Prompts for Engineers
 Use HTML and CSS to achieve a left-center-right three-column layout, with a fixed width of 100px on the left and right, and the middle to fill the remaining space
 ```
 
-<img width="709" alt="image" src="https://user-images.githubusercontent.com/948896/217124783-6ccdf75b-3fd6-443b-9316-27ca68f0e581. png">
-<img width="601" alt="image" src="https://user-images.githubusercontent.com/948896/217124795-8a7308de-2288-43bf-9340-7bcc710a78a5. png">
+<img width="709" alt="image" src="https://user-images.githubusercontent.com/948896/217124783-6ccdf75b-3fd6-443b-9316-27ca68f0e581.png">
+<img width="601" alt="image" src="https://user-images.githubusercontent.com/948896/217124795-8a7308de-2288-43bf-9340-7bcc710a78a5.png">
 
 ```
 Use React to generate a login form with a username, password, and confirmation password.
 ```
 
-<img width="724" alt="image" src="https://user-images.githubusercontent.com/948896/216982323-b3793dd9-91ba-47f0-a45c-cba8d54dc09b. png">
+<img width="724" alt="image" src="https://user-images.githubusercontent.com/948896/216982323-b3793dd9-91ba-47f0-a45c-cba8d54dc09b.png">
 
 ## Code Explanation
 
@@ -51,7 +51,7 @@ export const useDeepMemo = <K, V>(memoFn: () => V, key: K): V => {
 }.
 ```
 
-<img width="722" alt="image" src="https://user-images.githubusercontent.com/948896/216982215-ef9008c1-9102-47c8-94d8-6e39b90786f4. png">
+<img width="722" alt="image" src="https://user-images.githubusercontent.com/948896/216982215-ef9008c1-9102-47c8-94d8-6e39b90786f4.png">
 
 ## Code Optimization
 
@@ -70,7 +70,7 @@ function bottom(layout: Layout): number {
 }
 ```
 
-<img width="715" alt="image" src="https://user-images.githubusercontent.com/948896/217125899-73540629-db08-48cb-87f8-cb478e829ce2. png">
+<img width="715" alt="image" src="https://user-images.githubusercontent.com/948896/217125899-73540629-db08-48cb-87f8-cb478e829ce2.png">
 
 Support for follow-up questions:
 
@@ -78,7 +78,7 @@ Support for follow-up questions:
 Why is it so optimized?
 ```
 
-<img width="743" alt="image" src="https://user-images.githubusercontent.com/948896/216982055-a1ced7b5-7613-49ab-80e5-672fb76e0529. png">
+<img width="743" alt="image" src="https://user-images.githubusercontent.com/948896/216982055-a1ced7b5-7613-49ab-80e5-672fb76e0529.png">
 
 ## Code conversion: JS to TypeScript
 
@@ -97,7 +97,7 @@ const useWrapperCallback = (callback, wrapperFunction) => {
 }
 ```
 
-<img width="717" alt="image" src="https://user-images.githubusercontent.com/948896/217125605-358e57ec-ebfb-4a46-94ea-0a71202c2d43. png">
+<img width="717" alt="image" src="https://user-images.githubusercontent.com/948896/217125605-358e57ec-ebfb-4a46-94ea-0a71202c2d43.png">
 
 ## Specify the return format
 
@@ -107,7 +107,7 @@ Return JSON
 Generate 3 test users' information in json object array format, including name, phone, email
 ```
 
-<img width="727" alt="image" src="https://user-images.githubusercontent.com/948896/216981922-9344734d-4f96-4624-8a3e-e44ad4185d52. png">
+<img width="727" alt="image" src="https://user-images.githubusercontent.com/948896/216981922-9344734d-4f96-4624-8a3e-e44ad4185d52.png">
 
 Return XML
 
@@ -115,7 +115,7 @@ Return XML
 Generate 2 test users' information and return it in xml format, including name, phone, email
 ```
 
-<img width="711" alt="image" src="https://user-images.githubusercontent.com/948896/217123706-149b5a13-b79e-4c88-96e9-d3f4d0e13820. png">
+<img width="711" alt="image" src="https://user-images.githubusercontent.com/948896/217123706-149b5a13-b79e-4c88-96e9-d3f4d0e13820.png">
 
 ## Regular expressions
 
@@ -123,7 +123,7 @@ Generate 2 test users' information and return it in xml format, including name, 
 Write a JS regular expression that checks the strength of the password must contain a combination of upper and lower case letters and numbers, no special characters, and be between 8 and 10 in length.
 ```
 
-<img width="667" alt="image" src="https://user-images.githubusercontent.com/948896/220364751-862b502c-744b-46fb-84cd-07ead6f656ce. png">
+<img width="667" alt="image" src="https://user-images.githubusercontent.com/948896/220364751-862b502c-744b-46fb-84cd-07ead6f656ce.png">
 
 Can also interpret regular expressions
 ```
@@ -131,7 +131,7 @@ What is the meaning of this regular expression?
 ^[A-Z]:\\{1,2}[^/:\*\? <>\|]+\. (jpg|gif|png|bmp)$
 ```
 
-<img width="661" alt="image" src="https://user-images.githubusercontent.com/948896/220365104-a1f9f5fd-e5e7-4b32-a90d-812c13395079. png">
+<img width="661" alt="image" src="https://user-images.githubusercontent.com/948896/220365104-a1f9f5fd-e5e7-4b32-a90d-812c13395079.png">
 
 
 ## Generate SQL
@@ -160,12 +160,12 @@ You can also follow up to generate test data and view the results of sample runs
 ```
 Explain to a 6 year old why it is important to focus on the quality of the code
 ```
-<img width="727" alt="image" src="https://user-images.githubusercontent.com/948896/217501212-6733fc28-96dc-435b-ba90-c4b799134f01. png">
+<img width="727" alt="image" src="https://user-images.githubusercontent.com/948896/217501212-6733fc28-96dc-435b-ba90-c4b799134f01.png">
 
 ```
 Explain to bosses who don't understand technology why they need to do code refactoring frequently
 ```
-<img width="738" alt="image" src="https://user-images.githubusercontent.com/948896/217502042-e5adf975-cf9f-43d9-8093-b68215294674. png">
+<img width="738" alt="image" src="https://user-images.githubusercontent.com/948896/217502042-e5adf975-cf9f-43d9-8093-b68215294674.png">
 
 
 ## WIP
