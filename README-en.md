@@ -6,17 +6,17 @@ Practical Prompts for Engineers
 
 ## ChatGPT Usage Tips:
 
-1. the ability to record the context, when a question does not get the desired answer, you can continue to pursue the question
+1. The ability to record the context, when a question does not get the desired answer, you can continue to pursue the question
 2. Support mixed Chinese and English, you can flexibly switch between Chinese and English expressions in a question
 
 ## Table of Contents
 
-1. [code generation](#code generation)
-1. [Code Explanation](# Code Explanation)
-1. [Code Optimization](#Code Optimization)
-1. [code conversion](#code-conversion-js-to-typescript)
-1. [Specify the return format](# Specify the return format)
-1. [regular expression](#regular expression)
+1. [Code Generation](#code-generation)
+1. [Code Explanation](#code-explanation)
+1. [Code Optimization](#code-optimization)
+1. [Code Conversion](#code-conversion-js-to-typescript)
+1. [Specify the return format](#specify-the-return-format)
+1. [Regular Expression](#regular-expressions)
 1. [Generate SQL](#generate-sql)
 1. [Communication](#communication)
 
