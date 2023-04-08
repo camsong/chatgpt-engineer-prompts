@@ -2,6 +2,8 @@
 
 <img width="613" alt="image" src="https://user-images.githubusercontent.com/948896/217122899-5f6fb369-ef97-4753-9bd3-909c66ee4744.png">
 
+[ENGLISH README](README-en.md)
+
 为工程师总结的实用 Prompts
 
 ## ChatGPT 使用 Tips：
