@@ -28,6 +28,7 @@
 1. [生成吉祥物](#生成吉祥物)
 1. [生成配色](#生成配色)
 1. [沟通](#沟通)
+1. [其他技巧](#其他技巧)
 
 ## 代码生成
 
@@ -263,6 +264,9 @@ https://colorffy.com/gradients 生成多焦点渐变色，功能比较单一。
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/948896/217502042-e5adf975-cf9f-43d9-8093-b68215294674.png">
 
 
-## WIP
+## 其他技巧
 
-New prompts is coming, stay tuned.
+### 看到一个喜欢的图片，如何找到 prompt，image-to-text
+* 方法1：粘贴到 https://unprompt.ai/ 找到类似图片，查看 prompt
+* 方法2：Midjourney 的 `/describe` 指令，并上传图片即可。
+* 方法3：使用 CLIP Interrogator https://huggingface.co/spaces/pharma/CLIP-Interrogator
