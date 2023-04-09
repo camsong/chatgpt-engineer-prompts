@@ -22,10 +22,10 @@
 1. [指定返回格式](#指定返回格式)
 1. [正则表达式](#正则表达式)
 1. [生成SQL](#生成-sql)
-1. [生成页面UI-Midjourney](#生成页面UI)
-1. [生成插图-Midjourney](#生成生成插图)
-1. [生成Logo-Midjourney](#生成logo)
-1. [生成配色-Midjourney](#生成配色)
+1. [生成页面UI-Midjourney](#生成页面ui)
+1. [生成插图-Midjourney](#生成插图)
+1. [生成Icon-Midjourney](#生成icon)
+1. [生成配色](#生成配色)
 1. [沟通](#沟通)
 
 ## 代码生成
@@ -58,7 +58,7 @@ export const useDeepMemo = <K, V>(memoFn: () => V, key: K): V => {
 };
 ```
 
-<img width="722" alt="image" src="https://user-images.githubusercontent.com/948896/216982215-ef9008c1-9102-47c8-94d8-6e39b90786f4.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/216982215-ef9008c1-9102-47c8-94d8-6e39b90786f4.png">
 
 ## 代码优化
 
@@ -77,7 +77,7 @@ function bottom(layout: Layout): number {
 }
 ```
 
-<img width="715" alt="image" src="https://user-images.githubusercontent.com/948896/217125899-73540629-db08-48cb-87f8-cb478e829ce2.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/217125899-73540629-db08-48cb-87f8-cb478e829ce2.png">
 
 支持追问：
 
@@ -85,7 +85,7 @@ function bottom(layout: Layout): number {
 为什么这么优化？
 ```
 
-<img width="743" alt="image" src="https://user-images.githubusercontent.com/948896/216982055-a1ced7b5-7613-49ab-80e5-672fb76e0529.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/216982055-a1ced7b5-7613-49ab-80e5-672fb76e0529.png">
 
 ## 代码转换：JS 转 TypeScript
 
@@ -104,7 +104,7 @@ const useWrapperCallback = (callback, wrapperFunction) => {
 }
 ```
 
-<img width="717" alt="image" src="https://user-images.githubusercontent.com/948896/217125605-358e57ec-ebfb-4a46-94ea-0a71202c2d43.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/217125605-358e57ec-ebfb-4a46-94ea-0a71202c2d43.png">
 
 ## 指定返回格式
 
@@ -114,7 +114,7 @@ const useWrapperCallback = (callback, wrapperFunction) => {
 生成3个测试用户的信息，以json对象数组格式，包含 name, phone, email
 ```
 
-<img width="727" alt="image" src="https://user-images.githubusercontent.com/948896/216981922-9344734d-4f96-4624-8a3e-e44ad4185d52.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/216981922-9344734d-4f96-4624-8a3e-e44ad4185d52.png">
 
 返回 XML
 
@@ -122,7 +122,7 @@ const useWrapperCallback = (callback, wrapperFunction) => {
 生成2个测试用户的信息，以xml格式返回，包含 name, phone, email
 ```
 
-<img width="711" alt="image" src="https://user-images.githubusercontent.com/948896/217123706-149b5a13-b79e-4c88-96e9-d3f4d0e13820.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/217123706-149b5a13-b79e-4c88-96e9-d3f4d0e13820.png">
 
 ## 正则表达式
 
@@ -130,7 +130,7 @@ const useWrapperCallback = (callback, wrapperFunction) => {
 写一个 JS 的正则表达式，检查密码的强度必须是包含大小写字母和数字的组合，不能使用特殊字符，长度在8-10之间。
 ```
 
-<img width="667" alt="image" src="https://user-images.githubusercontent.com/948896/220364751-862b502c-744b-46fb-84cd-07ead6f656ce.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/220364751-862b502c-744b-46fb-84cd-07ead6f656ce.png">
 
 也可以解释正则表达式
 ```
@@ -138,7 +138,7 @@ const useWrapperCallback = (callback, wrapperFunction) => {
 ^[A-Z]:\\{1,2}[^/:\*\?<>\|]+\.(jpg|gif|png|bmp)$
 ```
 
-<img width="661" alt="image" src="https://user-images.githubusercontent.com/948896/220365104-a1f9f5fd-e5e7-4b32-a90d-812c13395079.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/220365104-a1f9f5fd-e5e7-4b32-a90d-812c13395079.png">
 
 
 ## 生成 SQL
@@ -156,69 +156,101 @@ FROM
     emp_salary;
 ```
 
-![image](https://user-images.githubusercontent.com/948896/223762204-ef3296bf-bb72-4b5c-a908-fd7d5be2e0b4.png)
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/223762204-ef3296bf-bb72-4b5c-a908-fd7d5be2e0b4.png">
 
 还可以追问，生成测试数据及查看示例运行结果：
 
-![image](https://user-images.githubusercontent.com/948896/223762643-fb17106b-6c54-4f36-9a66-6ca1ecf11ca6.png)
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/223762643-fb17106b-6c54-4f36-9a66-6ca1ecf11ca6.png">
 
 
-## 生成页面UI
+## 生成页面 UI
 
-Prompt 中包含 `website, ui, ux` 即可。示例：
+Prompt 中使用 `website` 来生成 PC 页面。示例：
 ```
-/imagine porsche car sales website, ui, ux, high-resolutionn website, website UI design, beautiful website, Figma awards, awwwards, Dribble,  Css design, usability, flat colors, Helvetica
+/imagine porsche car sales website, ui, ux, high-resolutionn website, website UI design, beautiful website, Figma awards, awards, Dribble, CSS design, usability, flat colors, Helvetica
 ```
-<img width="689" alt="image" src="https://user-images.githubusercontent.com/948896/230776767-920edf53-ce3c-4af3-abf5-a6941974e164.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/230776767-920edf53-ce3c-4af3-abf5-a6941974e164.png">
+
+使用 `app` 关键字，可以生成手机应用：如，一个订餐应用
+```
+/imagine food delivery app, user interface, Figma, Behance, HQ, 4k, clean UI
+```
 
 
-## 基于已有图生成新的效果图
+### 基于已有图生成新的效果图
 首先去 dribble 搜索一张喜欢的图片，然后把图片地址粘贴到 prompt 中，再加上一些关键字即可。示例：
 ```
 https://cdn.dribbble.com/userupload/3694651/file/original-894026fb660d8973c8324be7334e87e2.png?compress=1&resize=2048x1536 porsche car sales website, ui, ux, high-resolutionn website, website UI design, beautiful website, Figma awards, awwwards, Dribble,  Css design, usability, flat colors, Helvetica
 ```
 
-<img width="580" alt="image" src="https://user-images.githubusercontent.com/948896/230777079-03533535-5910-4d1b-b604-159b1453e0f5.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/948896/230777079-03533535-5910-4d1b-b604-159b1453e0f5.png">
 
 
-## 基于已经生成的图做调整
+### 基于已经生成的图做调整
 `/settings` 后开启 remix，这样生成图片后，会有 `Make Variations` 按钮，点击可调整图片的 prompt 并重新生成图片。
-<img width="267" alt="image" src="https://user-images.githubusercontent.com/948896/230777697-27c39197-f31b-4d0e-bacf-15c31db459ac.png">
+<img width="260" alt="image" src="https://user-images.githubusercontent.com/948896/230777697-27c39197-f31b-4d0e-bacf-15c31db459ac.png">
 
 ## 生成插图
-TODO
 
-## 生成logo
-TODO
+使用 `google flat art style` 来生成插画风格的图片，加上 `transparent background` 可以让背景变白，避免一些噪点。
+
+```
+/imagine a woman using a computer, google flat art style, transparent background 
+```
+
+<img width="463" alt="image" src="https://user-images.githubusercontent.com/948896/230797237-a7145ba2-a8fa-4ddc-af87-c843036169a9.png">
+
+上面第二个风格看起来还不错。
+
+去除白背景的方法：有很多免费在线工具，试了一下，还是感觉 [Adobe Express](https://www.adobe.com/express/feature/image/remove-background) 对渐变色擦除做的最好 
+
+<img width="463" alt="image" src="https://user-images.githubusercontent.com/948896/230797490-85bfff48-d3d5-4c6b-a5fb-6e8e5e0bbedd.png">
+
+
+## 生成 Icon
+使用 `icon for iOS app' 来移动端应用的图标
+```
+/imagine icon for ios App, burger, high quality, high resolution
+```
+这种情况下生成的图像过于逼真、拟物。
+
+<img width="463" alt="image" src="https://user-images.githubusercontent.com/948896/230797111-124880d5-8dae-4ac3-8a15-bd2de22d40af.png">
+
+如果你想用流行的极简模式，加上 `minimalism, flat design`：
+
+```
+/imagine icon for ios App, burger, high quality, high resolution, minimalism, flat design
+```
+
 
 ## 生成配色
 一种较好的的配色方案应遵循「60-30-10」比例，60％ Main 主色，30％ Secondary 辅色，最后 10％ Accent 使用与两种主要颜色形成强烈对比的强调色。以现实中的西服做类比：60 的外套和裤子颜色，30 是衬衣，10 是领带。
 但还需要一些辅助色，整个设计起来并不容易。推荐几个工具：
 
 https://aicolors.co/ 使用 GPT 来生成配色
-<img width="789" alt="image" src="https://user-images.githubusercontent.com/948896/230794748-ceaf0f6f-a3f1-4656-b2a0-8c4190e594e8.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/948896/230794748-ceaf0f6f-a3f1-4656-b2a0-8c4190e594e8.png">
 
 https://palettemaker.com/app 手动调色的神器，覆盖 Web、App、Brand，还有一些色彩理论教学。
-<img width="1112" alt="image" src="https://user-images.githubusercontent.com/948896/230794899-9ea00297-cf1e-4bed-ae34-5d3dce8612a0.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/948896/230794899-9ea00297-cf1e-4bed-ae34-5d3dce8612a0.png">
 
 https://www.magicpattern.design/dashboard 快速生产渐变色，背景图素材，比如最近很流行的 Blurry Gradients
-<img width="867" alt="image" src="https://user-images.githubusercontent.com/948896/230795174-eac97571-1e4d-4ca2-bc25-1bbeb3c90f89.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/948896/230795174-eac97571-1e4d-4ca2-bc25-1bbeb3c90f89.png">
 
 
 https://colorffy.com/gradients 生成多焦点渐变色，功能比较单一。
-<img width="1171" alt="image" src="https://user-images.githubusercontent.com/948896/230794684-6186fc82-56ca-4f7f-9533-678c3ba99c9a.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/948896/230794684-6186fc82-56ca-4f7f-9533-678c3ba99c9a.png">
 
 ## 沟通
 
 ```
 给6岁的孩子解释，为什么要关注代码的质量
 ```
-<img width="727" alt="image" src="https://user-images.githubusercontent.com/948896/217501212-6733fc28-96dc-435b-ba90-c4b799134f01.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/948896/217501212-6733fc28-96dc-435b-ba90-c4b799134f01.png">
 
 ```
 给不了解技术的老板解释，为什么要经常做代码的重构
 ```
-<img width="738" alt="image" src="https://user-images.githubusercontent.com/948896/217502042-e5adf975-cf9f-43d9-8093-b68215294674.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/948896/217502042-e5adf975-cf9f-43d9-8093-b68215294674.png">
 
 
 ## WIP
