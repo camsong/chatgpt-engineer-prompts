@@ -20,8 +20,8 @@
 1. [指定返回格式](#指定返回格式)
 1. [正则表达式](#正则表达式)
 1. [生成SQL](#生成-sql)
+1. [生成页面UI图-Midjourney](#生成网页UI图)
 1. [沟通](#沟通)
-
 
 ## 代码生成
 
@@ -156,6 +156,29 @@ FROM
 还可以追问，生成测试数据及查看示例运行结果：
 
 ![image](https://user-images.githubusercontent.com/948896/223762643-fb17106b-6c54-4f36-9a66-6ca1ecf11ca6.png)
+
+
+## 生成网页UI图
+
+Prompt 中包含 `website, ui, ux` 即可。示例：
+```
+/imagine porsche car sales website, ui, ux, high-resolutionn website, website UI design, beautiful website, Figma awards, awwwards, Dribble,  Css design, usability, flat colors, Helvetica
+```
+<img width="689" alt="image" src="https://user-images.githubusercontent.com/948896/230776767-920edf53-ce3c-4af3-abf5-a6941974e164.png">
+
+
+## 基于已有图生成新的效果图
+首先去 dribble 搜索一张喜欢的图片，然后把图片地址粘贴到 prompt 中，再加上一些关键字即可。示例：
+```
+https://cdn.dribbble.com/userupload/3694651/file/original-894026fb660d8973c8324be7334e87e2.png?compress=1&resize=2048x1536 porsche car sales website, ui, ux, high-resolutionn website, website UI design, beautiful website, Figma awards, awwwards, Dribble,  Css design, usability, flat colors, Helvetica
+```
+
+<img width="580" alt="image" src="https://user-images.githubusercontent.com/948896/230777079-03533535-5910-4d1b-b604-159b1453e0f5.png">
+
+
+## 基于已经生成的图做调整
+`/settings` 后开启 remix，这样生成图片后，会有 `Make Variations` 按钮，点击可调整图片的 prompt 并重新生成图片。
+<img width="267" alt="image" src="https://user-images.githubusercontent.com/948896/230777697-27c39197-f31b-4d0e-bacf-15c31db459ac.png">
 
 ## 沟通
 
