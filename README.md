@@ -2,9 +2,11 @@
 
 <img width="613" alt="image" src="https://user-images.githubusercontent.com/948896/217122899-5f6fb369-ef97-4753-9bd3-909c66ee4744.png">
 
-[ENGLISH README](README-en.md)
+为工程师总结的实用 Prompts，终极目标是把 100% 工作实现 AI 化。
+使用工具不局限于 ChatGPT，还有 Midjourney 等。目标覆盖的内容：代码开发的各个环节、UI/UX 视觉交互设计、产品设计思路。
+不断丰富中，欢迎关注，欢迎贡献 Idea。
 
-为工程师总结的实用 Prompts
+[ENGLISH README](README-en.md)
 
 ## ChatGPT 使用 Tips：
 
@@ -20,7 +22,10 @@
 1. [指定返回格式](#指定返回格式)
 1. [正则表达式](#正则表达式)
 1. [生成SQL](#生成-sql)
-1. [生成页面UI图-Midjourney](#生成网页UI图)
+1. [生成页面UI-Midjourney](#生成页面UI)
+1. [生成插图-Midjourney](#生成生成插图)
+1. [生成Logo-Midjourney](#生成logo)
+1. [生成配色-Midjourney](#生成配色)
 1. [沟通](#沟通)
 
 ## 代码生成
@@ -158,7 +163,7 @@ FROM
 ![image](https://user-images.githubusercontent.com/948896/223762643-fb17106b-6c54-4f36-9a66-6ca1ecf11ca6.png)
 
 
-## 生成网页UI图
+## 生成页面UI
 
 Prompt 中包含 `website, ui, ux` 即可。示例：
 ```
@@ -179,6 +184,29 @@ https://cdn.dribbble.com/userupload/3694651/file/original-894026fb660d8973c8324b
 ## 基于已经生成的图做调整
 `/settings` 后开启 remix，这样生成图片后，会有 `Make Variations` 按钮，点击可调整图片的 prompt 并重新生成图片。
 <img width="267" alt="image" src="https://user-images.githubusercontent.com/948896/230777697-27c39197-f31b-4d0e-bacf-15c31db459ac.png">
+
+## 生成插图
+TODO
+
+## 生成logo
+TODO
+
+## 生成配色
+一种较好的的配色方案应遵循「60-30-10」比例，60％ Main 主色，30％ Secondary 辅色，最后 10％ Accent 使用与两种主要颜色形成强烈对比的强调色。以现实中的西服做类比：60 的外套和裤子颜色，30 是衬衣，10 是领带。
+但还需要一些辅助色，整个设计起来并不容易。推荐几个工具：
+
+https://aicolors.co/ 使用 GPT 来生成配色
+<img width="789" alt="image" src="https://user-images.githubusercontent.com/948896/230794748-ceaf0f6f-a3f1-4656-b2a0-8c4190e594e8.png">
+
+https://palettemaker.com/app 手动调色的神器，覆盖 Web、App、Brand，还有一些色彩理论教学。
+<img width="1112" alt="image" src="https://user-images.githubusercontent.com/948896/230794899-9ea00297-cf1e-4bed-ae34-5d3dce8612a0.png">
+
+https://www.magicpattern.design/dashboard 快速生产渐变色，背景图素材，比如最近很流行的 Blurry Gradients
+<img width="867" alt="image" src="https://user-images.githubusercontent.com/948896/230795174-eac97571-1e4d-4ca2-bc25-1bbeb3c90f89.png">
+
+
+https://colorffy.com/gradients 生成多焦点渐变色，功能比较单一。
+<img width="1171" alt="image" src="https://user-images.githubusercontent.com/948896/230794684-6186fc82-56ca-4f7f-9533-678c3ba99c9a.png">
 
 ## 沟通
 
