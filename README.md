@@ -21,10 +21,11 @@
 1. [代码转换](#代码转换js-转-typescript)
 1. [指定返回格式](#指定返回格式)
 1. [正则表达式](#正则表达式)
-1. [生成SQL](#生成-sql)
-1. [生成页面UI-Midjourney](#生成页面ui)
+1. [生成 SQL](#生成-sql)
+1. [生成页面 UI-Midjourney](#生成页面-ui)
 1. [生成插图-Midjourney](#生成插图)
-1. [生成Icon-Midjourney](#生成icon)
+1. [生成Icon-Midjourney](#生成-icon)
+1. [生成吉祥物](#生成吉祥物)
 1. [生成配色](#生成配色)
 1. [沟通](#沟通)
 
@@ -212,16 +213,25 @@ https://cdn.dribbble.com/userupload/3694651/file/original-894026fb660d8973c8324b
 ```
 /imagine icon for ios App, burger, high quality, high resolution
 ```
+
 这种情况下生成的图像过于逼真、拟物。
 
-<img width="463" alt="image" src="https://user-images.githubusercontent.com/948896/230797111-124880d5-8dae-4ac3-8a15-bd2de22d40af.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/948896/230797956-ac3ac821-b464-4f96-ba49-896d6ba16c48.png">
 
 如果你想用流行的极简模式，加上 `minimalism, flat design`：
 
 ```
 /imagine icon for ios App, burger, high quality, high resolution, minimalism, flat design
 ```
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/948896/230797831-321720e0-7a78-444b-a880-9895d31f0a33.png">
 
+## 生成吉祥物
+使用 `mascot` 来生成一个企业的吉祥物，让别人更好的记住品牌。可以设置可爱的日系风格 `Japanese style`
+
+```
+simple mascot for a food delivery company, Japanese style
+```
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/948896/230798184-d7ae8f9e-a891-4ead-893e-59e3847a36e7.png">
 
 ## 生成配色
 一种较好的的配色方案应遵循「60-30-10」比例，60％ Main 主色，30％ Secondary 辅色，最后 10％ Accent 使用与两种主要颜色形成强烈对比的强调色。以现实中的西服做类比：60 的外套和裤子颜色，30 是衬衣，10 是领带。
