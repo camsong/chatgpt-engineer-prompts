@@ -2,11 +2,15 @@
 
 <img width="613" alt="image" src="https://user-images.githubusercontent.com/948896/217122899-5f6fb369-ef97-4753-9bd3-909c66ee4744.png">
 
-为工程师总结的实用 Prompts，终极目标是把 100% 工作实现 AI 化。
-使用工具不局限于 ChatGPT，还有 Midjourney 等。目标覆盖的内容：代码开发的各个环节、UI/UX 视觉交互设计、产品设计思路。
-不断丰富中，欢迎关注，欢迎贡献 Idea。
+[English Version](README-en.md)
 
-[ENGLISH README](README-en.md)
+为工程师总结的实用 Prompts，助力成为下一代 Prompt 工程师，使用工具不限于 ChatGPT，还有 Midjourney、Stable Diffusion 等。
+
+终极目标：**实现 99% 的工作 AI 化，剩下 1% 由你来掌控**
+
+覆盖范围：代码开发的各个环节、UI/UX 视觉交互设计、产品设计。
+
+不断丰富中，欢迎关注，欢迎贡献 Idea。
 
 ## ChatGPT 使用 Tips：
 
