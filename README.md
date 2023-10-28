@@ -179,6 +179,7 @@ Cute, fluffy [ANIMAL], on a parachute, smiling, adorable, pixar animation style
 Cute, fluffy mickey mouse, on a parachute, smiling, adorable, pixar animation style
 ```
 <img width="656" alt="image" src="https://github.com/camsong/chatgpt-engineer-prompts/assets/948896/92822cd6-76bd-4b56-9430-c0ccd4b004e8">
+
 ```
 Cute, fluffy panda, on a parachute, smiling, adorable, pixar animation style
 ```
