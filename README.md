@@ -26,6 +26,7 @@
 1. [指定返回格式](#指定返回格式)
 1. [正则表达式](#正则表达式)
 1. [生成 SQL](#生成-sql)
+1. [生成萌图 DALL·E](#生成萌图-dalle)
 1. [生成页面 UI-Midjourney](#生成页面-ui)
 1. [生成插图-Midjourney](#生成插图)
 1. [生成Icon-Midjourney](#生成-icon)
@@ -168,6 +169,21 @@ FROM
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/948896/223762643-fb17106b-6c54-4f36-9a66-6ca1ecf11ca6.png">
 
+## 生成萌图 DALL·E
+
+```
+Cute, fluffy [ANIMAL], on a parachute, smiling, adorable, pixar animation style
+```
+
+```
+Cute, fluffy mickey mouse, on a parachute, smiling, adorable, pixar animation style
+```
+<img width="656" alt="image" src="https://github.com/camsong/chatgpt-engineer-prompts/assets/948896/92822cd6-76bd-4b56-9430-c0ccd4b004e8">
+```
+Cute, fluffy panda, on a parachute, smiling, adorable, pixar animation style
+```
+<img width="672" alt="image" src="https://github.com/camsong/chatgpt-engineer-prompts/assets/948896/d3f54111-369e-4c07-a1eb-734c0c71de3d">
+
 
 ## 生成页面 UI
 
@@ -271,6 +287,7 @@ https://colorffy.com/gradients 生成多焦点渐变色，功能比较单一。
 ## 其他技巧
 
 ### 看到一个喜欢的图片，如何找到 prompt，image-to-text
+
 * 方法1：粘贴到 https://unprompt.ai/ 找到类似图片，查看 prompt
 * 方法2：Midjourney 的 `/describe` 指令，并上传图片即可。
 * 方法3：使用 CLIP Interrogator https://huggingface.co/spaces/pharma/CLIP-Interrogator
